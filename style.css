@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background-image: url('assets/crr.jpg');
+    background-image: url('assests/crr.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -100,7 +100,7 @@ select {
     font-size: 1em;
     border-radius: 0.4em;
     appearance: none;
-    background-image: url("assets/arrow.png");
+    background-image: url("assests/arrow.png");
     background-color: rgb(249, 246, 250);
     color: rgb(24, 165, 230);
     background-repeat: no-repeat;

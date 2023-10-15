@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Satisfy&display=swap" rel="stylesheet">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="logo"><img src="assets/bean.jpg" class="logo1">Currency Converter</div>
+
+    </nav>
+
+
+    <div class="container">
+
+
+        <div class="app-details">
+
+            <h1 class="title">Convert your currency here...</h1>
+        </div>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" value="100">
+
+        <div class="dropdowns">
+            <select id="from-currency"></select>
+            <span>&#8652;</span>
+            <select id="to-currency"></select>
+        </div>
+        <button id="convert-button">Convert</button>
+        <p id="result"></p>
+
+
+    </div>
+    <footer>
+
+        Copyright &copy; All rights reserved.
+    </footer>
+    <script src="currency-codes.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+
+</html>

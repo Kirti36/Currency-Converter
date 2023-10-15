@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d8d2eb;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url('assets/crr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    font-size: 1.7em;
+    margin-bottom: 1em;
+    color: rgb(2, 8, 9);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container {
+    width: 80%;
+    background-color: rgba(17, 27, 57, 0.2);
+    padding: 2em;
+    flex-grow: 1;
+    margin: 100px 0px;
+    border-radius: 20px;
+    border: 2px solid rgba(124, 131, 173, 0.6);
+}
+
+.app-details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(10, 59, 73);
+    color: rgb(244, 239, 243);
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    background-color: rgb(9, 40, 76);
+    padding: 13px;
+}
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+    color: rgb(196, 235, 241);
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.logo1 {
+    width: 5em;
+    border-radius: 90px;
+    padding-right: 9px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+input#amount {
+    font-weight: 400;
+    font-size: 1.6em;
+    width: 100%;
+    border-radius: 0.2em;
+    color: rgb(109, 165, 197);
+    margin-bottom: 3em;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 15px;
+}
+
+.dropdowns {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+select {
+    width: 80%;
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 0.4em;
+    appearance: none;
+    background-image: url("assets/arrow.png");
+    background-color: rgb(249, 246, 250);
+    color: rgb(24, 165, 230);
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%, center;
+    background-size: 20px 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+select option {
+    background-color: white;
+    color: rgb(40, 52, 186);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+button {
+    font-size: 1em;
+    width: 100%;
+    background-color: rgb(9, 48, 94);
+    padding: 0.5em 0;
+    margin-top: 2em;
+    border-radius: 0.3em;
+    color: #dae3e7;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#result {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0.5em;
+    color: #010115;
+    background-color: rgba(47, 98, 149, 0.8);
+    padding: 0.5em 0.5em;
+    border-radius: 0.3em;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+span {
+    font-size: 3.5em;
+    color: rgba(8, 6, 18, 0.7);
+}
